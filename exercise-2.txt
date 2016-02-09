@@ -1,0 +1,7 @@
+insert into Account values (null, 'nic@example.com', 'TheBestPasswordEver', '2016-01-01', '2016-02-09');
+
+insert into AddressBook values (null, '1', 'Gangsters', '2015-04-06', '2016-02-02');
+
+insert into Entry values (null, '1', 'Tony', 'Bologna', '1972-02-12', 'other', 'phone', 'none', 'of', 'your', 'damn', 'business');
+insert into Entry values (null, '1', 'Vinny', 'Twinkle Toes', '1958-05-19', 'work', 'address', 'Nunzios Delicatessen', '546 Canoli lane', 'Newark', 'New Jersey', 'USA');
+insert into Entry values (null, '1', 'Frank', 'Spaghetti', '1988-11-11', 'home', 'email', 'frank@frankyspizza.com', 'frank@frankysautoparts.com', 'frank@frankysgelato.com', 'frank@frankyssubs.com', 'frank@frankysconstruction.com');

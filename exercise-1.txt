@@ -1,0 +1,11 @@
+mysql-ctl start;
+
+mysql -u nicjo;
+
+source data/import-table-structure.sql;
+
+show databases;
+
+use decodemtl_addressbook_import;
+
+show tables;

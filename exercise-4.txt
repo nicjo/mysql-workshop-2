@@ -1,0 +1,5 @@
+update Account set password='password123FTW!';
+
+update AddressBook set name='Definitely not gangsters';
+
+update Entry set contentLineOne='514-666-5555';

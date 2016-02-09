@@ -1,0 +1,8 @@
+source data/import-table-structure.sql;
+
+show databases;
+
+source data/import-account.sql;
+source data/import-addressbook.sql;
+source data/import-entry.sql;
+

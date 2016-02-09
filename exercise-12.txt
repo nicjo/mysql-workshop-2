@@ -1,0 +1,6 @@
+Which Account owns the most Address Books?
+select accountId, count(*) from AddressBook group by accountId order by count(*) desc limit 5;
+
+
+Which Address Book contains the most Entries?
+select addressBookId, count(*) from Entry group by addressBookId order by count(*) desc limit 5;

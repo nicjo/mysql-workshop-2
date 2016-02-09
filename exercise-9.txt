@@ -1,0 +1,8 @@
+How many Accounts exist?
+select count(*) from Accounts;
+
+How many Address Books exist?
+select count(*) from AddressBook;
+
+How many Address Book Entries exist?
+select count(*) from Entry;

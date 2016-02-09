@@ -1,0 +1,11 @@
+What is the email of the Account identified by "63"?
+select id,email from Account where id=63;
+
+
+
+What are the names of the AdressBooks belonging to accountId "3"?
+select name from AddressBook where accountId=3;
+
+
+On which date was the AddressBook titled “Lorem Foundation” created?
+select accountId,name,createdOn from AddressBook where name='Lorem Foundation';

@@ -1,0 +1,13 @@
+How many Address Book Entries are listed as born before February 12th of 1982?
+select count(*) from Entry where birthday<'1982-02-12';
+
+How many Address Book Entries are listed as born on or after January 1st of 1965?
+select count(*) from Entry where birthday>='1965-01-01';
+
+Which Address Book Entry is listed as being the oldest of age?
+select min(birthday) from Entry;
+select * from Entry where birthday = '1945-09-02 09:21:58';
+
+
+Single statement (using substring) with help from Codrin:
+select * from Entry where birthday = (select min(birthday) from Entry);
